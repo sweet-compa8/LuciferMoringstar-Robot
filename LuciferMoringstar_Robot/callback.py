@@ -313,7 +313,7 @@ async def cb_handler(bot, update):
             InlineKeyboardButton('♻️𝙷𝙴𝙻𝙿♻️', callback_data='help'),
             InlineKeyboardButton('♻️𝙰𝙱𝙾𝚄𝚃♻️', callback_data='about')
         ], [
-            InlineKeyboardButton('🔍 Search Here 🔎', switch_inline_query_current_chat')
+            InlineKeyboardButton('🔍 Search Here 🔎', switch_inline_query_current_chat='')
             
         ]]
             await update.message.edit(START_MESSAGE.format(mention=update.from_user.mention, name=temp.Bot_Name, username=temp.Bot_Username), reply_markup=InlineKeyboardMarkup(buttons))
