@@ -52,7 +52,6 @@ async def answer(bot, update):
         await update.answer(results = [], is_personal = True, cache_time = cache_time, switch_pm_text = switch_pm_text, switch_pm_parameter = "okay")
 
 def get_reply_markup(query):
-    buttons = [[ InlineKeyboardButton('𝙊𝙉𝙀 𝙏𝙄𝙈𝙀 𝙈𝙊𝙑𝙄𝙀𝙎¹·⁰', url='https://t.me/+Uw3_PvUjzQ9jMTll'), ],
-               [ InlineKeyboardButton('𝙊𝙉𝙀 𝙏𝙄𝙈𝙀 𝙈𝙊𝙑𝙄𝙀𝙎²·⁰', url='https://t.me/otm_movie_cinema_film_group2'), ],
-               [ InlineKeyboardButton(' 𝘿𝙑𝘿 𝙐𝙋𝘿𝘼𝙏𝙀𝙎ᵒ.ᵒ', url='https://t.me/movies_channel001'), ]]
+    buttons = [[ InlineKeyboardButton('🔍 Search Again 🔎', url='https://t.me/+Uw3_PvUjzQ9jMTll'), ],
+               [ InlineKeyboardButton('💻 𝖮𝖳𝖳 𝖴𝖯𝖣𝖠𝖳𝖤𝖲 💻', url='https://t.me/movies_channel001'), ]]
     return InlineKeyboardMarkup(buttons)
