@@ -89,7 +89,7 @@ async def start(bot: lucifermoringstar_robot, update):
             InlineKeyboardButton('♻️𝙷𝙴𝙻𝙿♻️', callback_data='help'),
             InlineKeyboardButton('♻️𝙰𝙱𝙾𝚄𝚃♻️', callback_data='about')
         ], [
-            InlineKeyboardButton('🔍 Search Here 🔎', switch_inline_query_current_chat')
+            InlineKeyboardButton('🔍 Search Here 🔎', switch_inline_query_current_chat='')
             
         ]] 
         await bot.send_photo(photo=random.choice(PICS), chat_id=update.chat.id, caption=START_MESSAGE.format(mention=update.from_user.mention, name=temp.Bot_Name, username=temp.Bot_Username), reply_markup=InlineKeyboardMarkup(pr0fess0r_99))
