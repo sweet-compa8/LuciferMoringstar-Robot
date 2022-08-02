@@ -81,7 +81,7 @@ async def start(bot: lucifermoringstar_robot, update):
 
     if len(update.command) != 2:
         pr0fess0r_99 = [[
-            InlineKeyboardButton('➕ 𝙰𝙳𝙳 𝙼𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ 𝙰𝙳𝙳 𝙼𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕', url=f'http://t.me/{temp.Bot_Username}?startgroup=true')
         ], [
             InlineKeyboardButton('💠𝙲𝙷𝙰𝙽𝙽𝙴𝙻💠', url='https://t.me/movies_channel001'),
             InlineKeyboardButton('💠𝙶𝚁𝙾𝚄𝙿💠', url='https://t.me/+Uw3_PvUjzQ9jMTll')
