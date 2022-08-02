@@ -318,24 +318,24 @@ async def cb_handler(bot, update):
         elif update.data == "help":
             try:
                 buttons = [[
-                 InlineKeyboardButton("AutoFilter", callback_data="autofilter"),
-                 InlineKeyboardButton("FileStore", callback_data="filestore"),
-                 InlineKeyboardButton("Misc", callback_data="misc")
+                 InlineKeyboardButton("𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁", callback_data="autofilter"),
+                 InlineKeyboardButton("𝙵𝙸𝙻𝙴 𝚂𝚃𝙾𝚁𝙴", callback_data="filestore"),
+                 InlineKeyboardButton("𝙼𝙸𝚂𝙲", callback_data="misc")
                  ],[
-                 InlineKeyboardButton("Connections", callback_data="connection"),
-                 InlineKeyboardButton("SpellCheck", callback_data="spellcheck"),
-                 InlineKeyboardButton("Via", callback_data="inlinecb")
+                 InlineKeyboardButton("𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂", callback_data="connection"),
+                 InlineKeyboardButton("𝚂𝙿𝙴𝙻𝙻 𝙲𝙷𝙴𝙲𝙺", callback_data="spellcheck"),
+                 InlineKeyboardButton("𝚅𝙸𝙰", callback_data="inlinecb")
                  ],[
-                 InlineKeyboardButton("Welcome", callback_data="welcome"),
-                 InlineKeyboardButton("Caption", callback_data="filecaption"),
-                 InlineKeyboardButton("Fun", callback_data="funcb")
+                 InlineKeyboardButton("𝚆𝙴𝙻𝙲𝙾𝙼𝙴", callback_data="welcome"),
+                 InlineKeyboardButton("𝙲𝙰𝙿𝚃𝙸𝙾𝙽", callback_data="filecaption"),
+                 InlineKeyboardButton("𝙵𝚄𝙽", callback_data="funcb")
                  ],[
-                 InlineKeyboardButton("Font", callback_data="fontcb"),
-                 InlineKeyboardButton("ShareText", callback_data="sharetextcb"),
-                 InlineKeyboardButton("TTs", callback_data="ttscb")
+                 InlineKeyboardButton("𝙵𝙾𝙽𝚃", callback_data="fontcb"),
+                 InlineKeyboardButton("𝚂𝙷𝙰𝚁𝙴 𝚃𝙴𝚇𝚃", callback_data="sharetextcb"),
+                 InlineKeyboardButton("𝚃𝚃𝚂", callback_data="ttscb")
                  ],[
-                 InlineKeyboardButton("Status", callback_data="status"),
-                 InlineKeyboardButton("Home", callback_data="start")
+                 InlineKeyboardButton("𝚂𝚃𝙰𝚃𝚄𝚂", callback_data="status"),
+                 InlineKeyboardButton("𝙷𝙾𝙼𝙴", callback_data="start")
                  ]]                     
                 await update.message.edit(HELP_MESSAGE.format(mention=update.from_user.mention, name=temp.Bot_Name, username=temp.Bot_Username), reply_markup=InlineKeyboardMarkup(buttons))
             except MessageNotModified:
