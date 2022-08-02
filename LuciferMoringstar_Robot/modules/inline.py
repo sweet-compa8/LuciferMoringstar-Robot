@@ -53,6 +53,6 @@ async def answer(bot, update):
 
 def get_reply_markup(query):
     buttons = [[ InlineKeyboardButton('𝙊𝙉𝙀 𝙏𝙄𝙈𝙀 𝙈𝙊𝙑𝙄𝙀𝙎¹·⁰', url='https://t.me/+Uw3_PvUjzQ9jMTll'), ],
-               [ InlineKeyboardButton('𝙊𝙉𝙀 𝙏𝙄𝙈𝙀 𝙈𝙊𝙑𝙄𝙀𝙎¹·⁰', url='https://t.me/+Uw3_PvUjzQ9jMTll'), ],
-               [ InlineKeyboardButton('𝙊𝙉𝙀 𝙏𝙄𝙈𝙀 𝙈𝙊𝙑𝙄𝙀𝙎¹·⁰', url='https://t.me/+Uw3_PvUjzQ9jMTll'), ]]
+               [ InlineKeyboardButton('𝙊𝙉𝙀 𝙏𝙄𝙈𝙀 𝙈𝙊𝙑𝙄𝙀𝙎²·⁰', url='https://t.me/otm_movie_cinema_film_group2'), ],
+               [ InlineKeyboardButton(' 𝘿𝙑𝘿 𝙐𝙋𝘿𝘼𝙏𝙀𝙎ᵒ.ᵒ', url='https://t.me/movies_channel001'), ]]
     return InlineKeyboardMarkup(buttons)
