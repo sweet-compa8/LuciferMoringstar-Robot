@@ -99,8 +99,8 @@ USAGE_MESSAGE = """
 × [𝙷𝚘𝚠 𝚃𝚘 𝙲𝚛𝚎𝚊𝚝𝚎 𝚃𝚑𝚒𝚜 𝚃𝚢𝚙𝚎 𝙾𝚏 𝙱𝚘𝚝](https://youtu.be/gdz9PAGwEns)
 
 × 𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙳𝙴𝙿𝙻𝙾𝚈𝙴𝙳 𝙱𝚈
-  - [{}](t.me/{})"""
+  - [{}](t.me/{})
 
-× 🍃 Pᴏᴡᴇʀᴇᴅ ʙʏ 💪 : [ᗩᑎᗴᗴᗷ ᖇᗩᕼᗰᗩᗩᑎ](tg://resolve?domain=PSYCHO_009),
+× 🍃 Pᴏᴡᴇʀᴇᴅ ʙʏ 💪 : [ᗩᑎᗴᗴᗷ ᖇᗩᕼᗰᗩᗩᑎ](tg://resolve?domain=PSYCHO_009)"""
 
 
