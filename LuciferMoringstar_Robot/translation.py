@@ -38,13 +38,13 @@ HELP_MESSAGE = """
 ABOUT_MESSAGE = """
 𝙱𝙾𝚃 𝚃𝚈𝙿𝙴 : 𝙰𝚄𝚃𝙾𝙵𝙸𝙻𝚃𝙴𝚁
 𝙱𝙾𝚃 𝙱𝚁𝙰𝙽𝙲𝙷 : 𝙻𝚄𝙲𝙸𝙵𝙴𝚁
-𝙱𝙾𝚃 𝙻𝙸𝙲𝙴𝙽𝚂𝙴 : [𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴](https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE)
-𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 : [𝙼𝚄𝙷𝙰𝙼𝙼𝙴𝙳](t.me/PR0FESS0R_99)
+𝙱𝙾𝚃 𝙻𝙸𝙲𝙴𝙽𝚂𝙴 : [𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴](https://github.com/Aneeb121/LuciferMoringstar-Robot/blob/747f2bb76ed122e6eff53c6afaedf579f3bbe92e/LICENSE)
+𝙱𝙾𝚃 𝙽𝙰𝙼𝙴 : [𝙳𝙴𝚅𝙸𝙻⚡️⚡️](tg://resolve?domain=OTM_AUTOFILTERBOT)
 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : [{name}](https://t.me/{username})
 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : 𝙿𝚈𝚃𝙷𝙾𝙽3 : {py3_version}
 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼 : {pyro_version}
 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 : {version}
-𝚂𝙾𝚄𝚁𝙲𝙴 : [𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴]({source})
+𝙼𝚈 𝚂𝙴𝚁𝚅𝙴𝚁 : [𝙷𝙴𝚁𝙾𝙺𝚄](https://dashboard.heroku.com)
 """
 
 SETTINGS_MESSAGE = """
