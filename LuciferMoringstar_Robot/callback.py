@@ -232,7 +232,7 @@ async def cb_handler(bot, update):
 
             FILE_CAPTION = settings["caption"]
             caption = FILE_CAPTION.format(mention=update.from_user.mention, file_name=title, size=size, caption=files.caption)
-            buttons = [[ InlineKeyboardButton("⚜️ 𝚂𝙷𝙰𝚁𝙴 𝙼𝙴 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁 𝙵𝚁𝙸𝙴𝙽𝙳𝚂 ⚜️", url=f"https://t.me/share/url?url=Best%20AutoFilter%20Bot%20%0A%40LuciferMoringstar_Robot%0A@{temp.Bot_Username}") ]]
+            buttons = [[ InlineKeyboardButton("⚜️ 𝚂𝙷𝙰𝚁𝙴 𝙼𝙴 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁 𝙵𝚁𝙸𝙴𝙽𝙳𝚂 ⚜️", url=f"https://t.me/share/url?url=%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%0A%0A%F0%9D%95%8C%F0%9D%95%A1%F0%9D%95%95%F0%9D%95%92%F0%9D%95%A5%F0%9D%95%96%F0%9D%95%A4%20%20%20%3D%20%20%40MOVIES_CHANNEL001%0A%0A%F0%9D%94%B9%F0%9D%95%96%F0%9D%95%A4%F0%9D%95%A5%20%F0%9D%95%97%F0%9D%95%9A%F0%9D%95%9D%F0%9D%95%A5%F0%9D%95%96%F0%9D%95%A3%20%F0%9D%95%93%F0%9D%95%A0%F0%9D%95%A5%20%3D%20%40OTM_AUTOFILTERBOT%0A%0A%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87") ]]
             if settings["savefiles"]:
                 protect_content = True
             else:
@@ -293,7 +293,7 @@ async def cb_handler(bot, update):
             title = files.file_name
             size = get_size(files.file_size)
             caption = CUSTOM_FILE_CAPTION.format(mention=update.from_user.mention, file_name=title, size=size, caption=files.caption)
-            buttons = [[ InlineKeyboardButton("⚜️ 𝚂𝙷𝙰𝚁𝙴 𝙼𝙴 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁 𝙵𝚁𝙸𝙴𝙽𝙳𝚂 ⚜️", url=f"https://t.me/share/url?url=Best%20AutoFilter%20Bot%20%0A%40LuciferMoringstar_Robot%0A@{temp.Bot_Username}") ]]
+            buttons = [[ InlineKeyboardButton("⚜️ 𝚂𝙷𝙰𝚁𝙴 𝙼𝙴 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁 𝙵𝚁𝙸𝙴𝙽𝙳𝚂 ⚜️", url=f"https://t.me/share/url?url=%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%0A%0A%F0%9D%95%8C%F0%9D%95%A1%F0%9D%95%95%F0%9D%95%92%F0%9D%95%A5%F0%9D%95%96%F0%9D%95%A4%20%20%20%3D%20%20%40MOVIES_CHANNEL001%0A%0A%F0%9D%94%B9%F0%9D%95%96%F0%9D%95%A4%F0%9D%95%A5%20%F0%9D%95%97%F0%9D%95%9A%F0%9D%95%9D%F0%9D%95%A5%F0%9D%95%96%F0%9D%95%A3%20%F0%9D%95%93%F0%9D%95%A0%F0%9D%95%A5%20%3D%20%40OTM_AUTOFILTERBOT%0A%0A%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87%E2%96%87") ]]
             try:
                 await bot.send_cached_media(chat_id=update.from_user.id, file_id=file_id, caption=caption, reply_markup=InlineKeyboardMarkup(buttons), protect_content=SAVE_FILES)            
             except Exception as e:
