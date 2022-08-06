@@ -58,7 +58,7 @@ SPELLMODE_MESSAGE = """
 **__Couldn't Find {query} ?  Please Click Your Request Name**__"""
 
 REQUEST_MESSAGE = """
-**Hᴀɪ** 👋 {mention}😍\n\n**📂Fᴏᴜɴᴅ✨ Fɪʟᴇꜱ Fᴏʀ Yᴏᴜʀ\nQᴜᴇʀy : ** {query} 👇\n\n**© 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 : ** {group_name} ™️"""
+**Hᴀɪ** 👋 {mention}😍\n\n📁 **Fᴏᴜɴᴅ** ✨ **Fɪʟᴇꜱ Fᴏʀ Yᴏᴜʀ\nQᴜᴇʀy : ** {query} 👇\n\n**© 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 : ** {group_name} ™️"""
 
 WELCOME_MESSAGE = """
 𝙷𝙴𝙻𝙻𝙾 {mention} 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 {group_name}"""
